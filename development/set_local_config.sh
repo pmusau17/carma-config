@@ -1,5 +1,5 @@
 #!/bin/bash
-IMAGE_NAME=usdotfhwastol/carma-config:latest
+IMAGE_NAME=usdotfhwastoldev/carma-config:develop-development
 echo $IMAGE_NAME
 
 if docker container inspect carma-config > /dev/null 2>&1; then

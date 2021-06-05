@@ -8,5 +8,5 @@ docker container run --rm -v /opt/carma/vehicle/calibration:/opt/carma/vehicle/c
     -v /opt/carma/routes:/opt/carma/routes \
     --net=host \
     -v /opt/carma/data:/opt/carma/data \
-    --volumes-from carma-config:ro -it usdotfhwastol/carma-platform:latest bash 
+    --volumes-from carma-config:ro -it usdotfhwastoldev/carma-platform:develop bash 
 
