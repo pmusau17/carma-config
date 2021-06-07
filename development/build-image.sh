@@ -63,7 +63,6 @@ else
     git checkout -- docker-compose.yml docker-compose-background.yml
 fi
 
-
 docker build --no-cache -t $USERNAME/$IMAGE:$TAG \
     --build-arg VERSION="$TAG" \
     --build-arg VCS_REF=`git rev-parse --short HEAD` \
